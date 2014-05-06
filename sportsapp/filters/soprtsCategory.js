@@ -39,7 +39,6 @@ angular.module("customFilters",[]).filter("unique", function(){
 						//calculate the range, from start index to end index
 						var startIndex = (selectedPage -1) * pageSize;
 						
-
 						console.log(startIndex)
 						console.log(pageSize)
 
