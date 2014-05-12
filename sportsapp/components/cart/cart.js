@@ -26,7 +26,7 @@ return{
             }
 	},
 
-	removeProduct:function(){
+	removeProduct:function(id){
 
 		for (var i = 0; i < cartData.length; i++) {
                 if (cartData[i].id== id) {
